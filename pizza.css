@@ -1,0 +1,109 @@
+.container_in_box {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 40px 0px;
+    border: 1px solid black;
+
+
+}
+
+.container_in_box:hover {
+    border: 1px solid whitesmoke;
+
+}
+.box1, .box2, .box3 {
+    flex-grow: 3;
+
+
+}
+body {
+    background: url(bg_4.jpg) fixed;
+    font-family: 'Be Vietnam', sans-serif;
+    border: 2pt solid whitesmoke;
+    padding: 5% 10%;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 100px;
+}
+.username {
+    color: whitesmoke;
+font-size: 40px;
+}
+input[type="text"]{
+    padding: 20px 10px;
+    line-height: 40px;
+    font-size: 35px;
+    border: 10px solid black;
+    font-family: 'Be Vietnam', sans-serif;
+
+
+
+}
+h3 {
+font-size: 25pt;
+}
+
+h4 {
+font-size: 20pt;
+}
+
+
+.box1 {
+    white-space: normal;
+    background-color: rgba(255, 198, 41, 0.7);
+    border: 2pt solid #bb8044;
+    max-width: 240px;
+    width: 100%;  /* Added this rule */
+    padding-bottom: 10pt;
+
+
+}
+
+
+.box2 {
+    background-color: rgba(12, 12, 12, 0.5);
+    padding-top: 56px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;  /* Added this rule */
+    color: white;
+
+
+}
+
+.box3 {
+    background-color: rgba(12, 12, 12, 0.5);
+    color: whitesmoke;
+    padding-top: 56px;
+    border-top: 1px solid black;
+    text-align: center;
+
+}
+
+.bestaetigen {
+    background-color: rgba(255, 198, 41, 0.7);
+    border-radius:9px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size:28px;
+    font-weight:bold;
+    padding:18px 33px;
+    text-decoration:none;
+    text-shadow:4px 5px 13px #7a2a1d;
+
+    margin-left: 45%;
+}
+.bestaetigen:hover {
+    background-color:#b34332;
+}
+.bestaetigen:active {
+    position:relative;
+    top:1px;
+}
