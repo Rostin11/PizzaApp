@@ -16,7 +16,7 @@ function getUrlVars() {
 }
 if (auswahl == undefined) {
 
-    window.location = "pizza.html";
+    window.location = "index.html";
 
 }
 var pizza = pizzaList[auswahl];
